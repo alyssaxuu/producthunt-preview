@@ -1,0 +1,234 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat:500');
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+li, a, button {
+    font-family: "Montserrat", sans-serif;
+    font-weight: 500;
+    font-size: 2vh;
+    color: white;
+    text-decoration: none;
+}
+header {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding: 1% 5%;   
+    background-color: black; 
+}
+.logo {
+    cursor: pointer;
+    margin-right: auto;
+    width: 5%;
+}
+.nav__links {
+    list-style: none;
+}
+.nav__links li {
+    display: inline-block;
+    padding: 0px 20px;
+}
+.nav__links li a {
+    transition: all 0.3s ease 0s;
+}
+.nav__links li a:hover {
+    color: #0088a9
+}
+.cta button {
+    margin-left: 20px;
+    padding: 9px 25px;
+    background-color: rgba(0,136,169,1);
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: all 0.3s ease 0s;
+}
+.cta button:hover {
+    background-color: rgba(0,136,169,0.8);
+}
+
+
+#heading{
+    width: 100%;
+    text-align: center;
+    padding: 2% 0;
+    background-image: url("../Images/bkg3.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#heading h6, h1{
+    color: black;
+    letter-spacing: 0.2em;
+}
+#heading h6{
+    font-size: 60%;
+}
+#heading h1{
+    font-size: 300%;
+}
+
+
+/* Home Starts Here */
+
+#admin {
+    background-image: url("../Images/bkg4.png");
+    width: 100%;
+    padding: 5%;
+}
+
+.card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    width: 25%;
+    margin: auto;
+    text-align: center;
+    font-family: "Montserrat", sans-serif;
+    background-image: url("../Images/bkg3.jpg");
+    background-size: cover;
+}
+button {
+    border: none;
+    outline: 0;
+    display: inline-block;
+    padding: 4%;
+    color: #16a085;
+    background-color: #000;
+    text-align: center;
+    cursor: pointer;
+    width: 100%;
+    font-size: 120%;
+}
+.card a {
+    text-decoration: none;
+    font-size: 140%;
+    color: black;
+    padding: 0 3%;
+}
+.card h1 {
+    padding: 5% 0 0 0;
+    font-size: 160%;
+    color: black;
+}
+button:hover, a:hover {
+    color:#1abc9c;
+}
+#codeblock {
+    border: none;
+    text-align: center;
+    cursor: pointer;
+    width: 100%;
+}
+#codeblock input {
+    width: 100%;
+    height: 40px;
+}
+
+
+
+/* Modal */
+
+/* The Modal (background) */
+.modal {
+    font-family: "Montserrat", sans-serif;
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    padding-top: 10%; /* Location of the box */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.7); /* Black w/ opacity */
+}
+
+/* Modal Content */
+.modal-content {
+    position: relative;
+    background-image: url("../Images/bkg2.jpg");
+    margin: auto;
+    padding: 0;
+    border: 1px solid #888;
+    width: 40%;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2),0 6px 20px 0 rgba(0,0,0,0.19);
+    animation-name: animatetop;
+    animation-duration: 0.4s
+}
+/* Add Animation */
+@-webkit-keyframes animatetop {
+    from {top:-300px; opacity:0} 
+    to {top:0; opacity:1}
+}
+@keyframes animatetop {
+    from {top:-300px; opacity:0}
+    to {top:0; opacity:1}
+}
+.modal-header {
+    background-image: url("../Images/bkg3.jpg");
+    background-position: center;
+    width: 100%;
+    height: 80px;
+    padding: 3%;
+    font-size: 150%;
+}
+
+
+
+
+
+/* Form */
+.modal-content {
+    width: 30%;
+}
+.container {
+    padding: 0 5% 5% 5%;
+    background-image: url("../Images/bkg4.png");
+    color: white;
+}
+.container h1{
+    padding: 3% 0;
+    color: white;
+}
+/* Full-width input fields */
+.modal-body input {
+    width: 100%;
+    height: 40px;
+    padding: 3%;
+    margin: 1% 0 5% 0;
+    display: inline-block;
+    border: none;
+    background: #f1f1f1;
+}
+
+/* Overwrite default styles of hr */
+hr {
+    border: 1px solid #f1f1f1;
+    margin: 2% 0 5% 0;
+}
+
+/* Set a style for the submit button */
+.registerbtn {
+    background-color: #16a085;
+    color: black;
+    padding: 1% 2%;
+    margin: 1% 25%;
+    border: none;
+    cursor: pointer;
+    width: 50%;
+    height: 50px;
+    opacity: 0.9;
+    text-align: center;
+}
+
+.registerbtn:hover {
+    color: white;
+    background-color:#1abc9c;
+}
+
+
+

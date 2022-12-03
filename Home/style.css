@@ -1,0 +1,159 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat:500');
+@import url('https://fonts.googleapis.com/css?family=Ubuntu&display=swap');
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body {
+    background-image: url("../Images/bkg4.png");
+}
+li, a, button {
+    font-family: "Montserrat", sans-serif;
+    font-weight: 500;
+    font-size: 2vh;
+    color: white;
+    text-decoration: none;
+}
+header {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding: 1% 5%;   
+    background-color: black; 
+}
+.logo {
+    cursor: pointer;
+    margin-right: auto;
+    width: 5%;
+}
+.nav__links {
+    list-style: none;
+}
+.nav__links li {
+    display: inline-block;
+    padding: 0px 20px;
+}
+.nav__links li a {
+    transition: all 0.3s ease 0s;
+}
+.nav__links li a:hover {
+    color: #0088a9
+}
+.cta button {
+    margin-left: 20px;
+    padding: 9px 25px;
+    background-color: rgba(0,136,169,1);
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: all 0.3s ease 0s;
+}
+.cta button:hover {
+    background-color: rgba(0,136,169,0.8);
+}
+
+
+#heading{
+    width: 100%;
+    text-align: center;
+    padding: 2% 0;
+    background-image: url("../Images/bkg3.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#heading h6, h1{
+    color: black;
+    letter-spacing: 0.2em;
+}
+#heading h6{
+    font-size: 60%;
+}
+#heading h1{
+    font-size: 300%;
+}
+
+
+/* Home Starts Here */
+#home {
+    width: 100%;
+    padding: 5% 0 0 4%;
+}
+
+#about {
+    display: inline-block;
+    width: 50%;
+    background-image: url("../Images/bkg2.jpg");
+    padding: 2% 5%;
+    font-family: "Ubuntu", "Montserrat", sans-serif;
+    border-radius: 2%;
+}
+#about hr {
+    border: 1px solid black;
+    margin: 2% 0;
+}
+#about h1{
+    font-size: 200%;
+    font-style: normal;
+    letter-spacing: 0;
+}
+#about p {
+    padding: 1% 0;
+    font-size: 120%;
+    line-height: 1.5em;
+}
+
+#sachin {
+    display: inline-block;
+    width: 45%;
+    padding: 2% 0 0 5%;
+}
+#sachin img {
+    width: 100%;
+    border-radius: 0 0 10% 0;
+    height: 860px;
+    border: 1px white solid;
+}
+#sachin h1 {
+    font-family: "Ubuntu", sans-serif;
+    font-size: 200%;
+    color: black;
+    background-image: url("../Images/bkg2.jpg");
+    padding: 5%;
+    border: 1px solid teal;
+}
+
+#venuehead {
+    font-family: "Montserrat", sans-serif;
+    font-size: 400%;
+    color: white;
+    padding: 5% 5% 0 7%;
+}
+
+.grounds {
+    padding: 0 0 5% 7%;
+    margin-bottom: 200px;
+}
+.card {
+    float: left;
+    width: 20%;
+    margin: 3% 5% 0 0;
+    height: 180px;
+}
+.card img {
+    width: 100%;
+    height: 150px;
+}
+.card p{
+    height: 30px;
+    width: 100%;
+    color: white;
+    padding: 2% 0;
+    font-size: 120%;
+    font-family: "Montserrat", sans-serif;
+}
+
+

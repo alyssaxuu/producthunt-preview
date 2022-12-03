@@ -1,0 +1,107 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat:500');
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+li, a, button {
+    font-family: "Montserrat", sans-serif;
+    font-weight: 500;
+    font-size: 2vh;
+    color: white;
+    text-decoration: none;
+}
+header {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding: 1% 5%;   
+    background-color: black; 
+}
+.logo {
+    cursor: pointer;
+    margin-right: auto;
+    width: 5%;
+}
+.nav__links {
+    list-style: none;
+}
+.nav__links li {
+    display: inline-block;
+    padding: 0px 20px;
+}
+.nav__links li a {
+    transition: all 0.3s ease 0s;
+}
+.nav__links li a:hover {
+    color: #0088a9
+}
+.cta button {
+    margin-left: 20px;
+    padding: 9px 25px;
+    background-color: rgba(0,136,169,1);
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: all 0.3s ease 0s;
+}
+.cta button:hover {
+    background-color: rgba(0,136,169,0.8);
+}
+
+
+#heading{
+    width: 100%;
+    text-align: center;
+    padding: 2% 0;
+    background-image: url("../Images/bkg3.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#heading h6, h1{
+    color: black;
+    letter-spacing: 0.2em;
+}
+#heading h6{
+    font-size: 60%;
+}
+#heading h1{
+    font-size: 300%;
+}
+
+
+/* Table */
+#standings {
+    background-image: url("../Images/bkg4.png");
+    padding-top: 2%; 
+    font-family: "Montserrat", sans-serif;
+    color: white;
+}
+table {
+    width: 60%;
+    text-align: center;
+    margin: 0% auto;
+    border-collapse: collapse;
+}
+td {
+    font-size: 150%;
+    width: 5%;
+}
+.flags {
+    text-align: right;
+}
+table img {
+    width: 80px;
+    height: 60px;
+    border-radius: 0 20% 0 20%;
+}
+th{
+    padding: 0 0 1% 0;
+    font-size: 150%;
+}
+td {
+    padding: 2%;
+}
